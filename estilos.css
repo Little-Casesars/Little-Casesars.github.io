@@ -1,0 +1,269 @@
+.body{
+	background: #FFFFFF ;
+}
+h1{
+	font-size:30px;
+	font-style:Times new roman;
+	text-align:center;
+	color: #000000;
+	}
+	
+p{
+	font-size:15px;
+	font-style:Tahoma;
+	text-align:center;
+	color: #000000;
+	}
+	
+table{
+	border-style: dotted;
+	border: 2; 
+	width: 90%;
+	height: 60%;
+	border-color: #D7A965;
+}
+
+td{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+th{
+	background-color: #EE985D;
+	width:25%;
+}
+
+/*codigo tabla transparente*/
+.sin{
+	border-style: transparent;
+	border: 0;
+	background-color: transparent;
+}
+
+/*codigo contacto*/
+.ct{
+	border-style: dotted;
+	border: 1; 
+	width:70%;
+	height: 70%;
+	border-color: #D7A965;
+}
+
+/*codigo imagen producto*/
+.img{
+	width: 250px;
+	height: 250px;
+}
+
+/*codigo para imagenes que se mueven en principal*/
+.ip{
+	width: 250px;
+	height: 200px;
+}
+
+/*codigo logo*/
+.logo{
+	width: 430px;
+	height: 230px;
+}
+
+/*codigo historia viñetas*/
+.viñetas{
+	font-size: 30px;
+	font-style:Tahoma;
+	text-align:center;
+	color: #5F4C0B;
+	font-weight: bold;
+}
+	
+/*codigo historia*/
+.his{
+	font-size: 20px;
+	font-style: Calibri;
+	text-align:center;
+	color: #5F4C0B;
+}
+
+/*codigo encabezado*/
+.div1{
+	border: 0px groove #EC680D;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: linear-gradient(to bottom, #EC680D, #F9954F);
+	text-align: center;
+	left: 10px;
+	top: 10px;
+	width: 90%;
+	height: 35%;
+	color: #000000;
+}
+
+/*codigo de producto*/
+.div2{
+	border: 0px solid #D4AC0D;
+	background: #EC680D;
+	text-align: center;
+	width: 95%;
+	height: 45%;
+	color: #000000;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10 px;
+	padding-left: 80px;
+}
+
+/*codigo de hipervinculos*/
+.div3{
+	border: 0px solid #FDEDEC;
+	background: #EC680D;
+	text-align: center;
+	width:96.4%;
+	height: 15%;
+	color: #000000;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+/*codigo de contacto*/
+.div4{
+	border: 0px solid #D4AC0D;
+	background: #EC680D;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+	color: #000000;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 10%;
+}
+
+/*codigo datos mios*/
+.div5{
+	border: 0px solid #E5E7E9;
+	background: #D8C7BC;
+	text-align: center;
+	width: 100%;
+	height: 12%;
+	color: #000000;
+	background-color: #666666;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Tahoma", gadget, sans-serif;
+	font-style: italic;
+	padding-top: 2%;
+}
+
+/*codigo de fotos principal*/
+.div6{
+	background: url("fondofotos.jpg");
+	border: 0px groove #E5E7E9;
+	border-radius: 10px;
+	margin: auto;
+	width: 100%;
+	height: 30%;
+}
+
+/*codigo cuadro historia*/
+.div7{
+	border: 0px groove #F8F9F9;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: #D8C7BC;
+	text-align: center;
+	left: 10px;
+	top: 10px;
+	width: 60%;
+	height: 40%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10 px;
+}
+
+.caja{
+   height: 325px;
+   width: 250px;
+   border: 1px solid #eee;
+   background: #eee;
+   margin: 5px;
+   color: black;
+   text-align: center;
+   font-family: "lato", sans-serif;
+   display: inline-block;
+}
+.caja:hover{
+           /* colocar sombra al div*/
+           /*  x  y   radio color*/
+   box-shadow: 0 0 10px orange;
+   /* cambiar tamaño de escala del div*/
+   transform: scale(1.3);
+}
+.caja-texto{
+   padding-bottom: 5px;
+   padding-top: 2px;
+   font-size: 25px;
+   color: black;
+   font-weight: bold;
+}
+.texto-adicional{
+   padding-top: 5px;
+   font-size: 20px; 
+}
+
+@font-face{
+    font-family: "mifuente";
+	src: url(BunnyFunny.ttf);
+}
+
+#fuente_BunnyFunny{
+    font-family: "mifuente";
+}
+
+#fuente_google{
+    font-family: "mifuente";
+}
+
+.navegacion{
+   display: flex;
+   height: 20%
+}
+
+.navegacion-item{
+   flex: 1;
+   color: fff;
+   font-weight: bold;
+   font-size: 15 px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: flex-grow 0.2s;
+}
+
+.navegacion-item:hover{
+   flex-grow: 10;
+}
+
+.navegacion-item:nth-child(1) {
+   background: #FF8B40;
+}
+
+.navegacion-item:nth-child(2) {
+   background: #EC7B31;
+}
+
+.navegacion-item:nth-child(3) {
+   background: #D5651C;
+}
+
+.navegacion-item:nth-child(4) {
+   background: #BD5009;
+}
+
